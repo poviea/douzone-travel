@@ -1,6 +1,6 @@
 .github/workflows
 
-name: Actions
+- name: Actions
 on: 
   # push: 
   #   branches:
