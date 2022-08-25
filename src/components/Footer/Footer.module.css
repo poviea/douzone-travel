@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.footer_a {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.made_by {
+  position: absolute;
+  right: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-bottom: 20px;
+}
+
+.made_by_a {
+  color: #111;
+  font-weight: bold;
+}

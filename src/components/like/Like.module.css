@@ -1,0 +1,287 @@
+/* like header*/
+.header {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 54px;
+}
+
+.tab_title {
+  max-width: 1280px;
+  height: 60px;
+  border-radius: 10px;
+  background: #f2f2f2;
+  margin: 0 auto;
+  margin-top: 52px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.tab_title span {
+  background: #f2f2f2;
+}
+
+.tab_title input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #19ce60;
+  border-radius: 50%;
+  appearance: none;
+  cursor: pointer;
+}
+
+.tab_title input[type="checkbox"]:checked {
+  background: #19ce60;
+  border: none;
+}
+
+.tab_title p {
+  display: none;
+  background: #f2f2f2;
+  font-size: 18px;
+  color: #767676;
+}
+
+/* likeList*/
+.like_list {
+  position: relative;
+  max-width: 1280px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  margin: 0 auto;
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.like_list_none {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 15rem;
+}
+
+.like_list input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #19ce60;
+  border-radius: 50%;
+  appearance: none;
+  cursor: pointer;
+}
+
+.like_list input[type="checkbox"]:checked {
+  background: #19ce60;
+  border: none;
+}
+
+.like_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.like_image {
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
+}
+
+.like_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.like_info {
+  width: 150px;
+  margin-left: 36px;
+}
+
+.like_info .seller_store {
+  font-size: 12px;
+  line-height: 18px;
+  color: #767676;
+  margin-bottom: 10px;
+}
+
+.like_info .sight_name {
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.like_info .tel {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.like_info .title {
+  font-size: 14px;
+  line-height: 18px;
+  color: #767676;
+}
+
+.like_count {
+  position: relative;
+  width: 110px;
+  height: 45px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.like_count {
+  position: absolute;
+  width: 10px;
+  height: 18px;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.like_count .count {
+  position: absolute;
+  width: 38px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #c4c4c4;
+  border-top:none;
+  border-bottom:none;
+}
+
+.like_count .count span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.like_btn_wrap .btn_submit {
+  width: 130px;
+  height: 40px;
+  background: #f54266;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.btn {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.btn .btn_submit {
+  margin: 0 auto;
+  width: 220px;
+  height: 68px;
+  background: #f54266;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+
+@media (max-width: 1280px) {
+  .tab_title,
+  .like_list{
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tab_title {
+    display: flex;
+    padding-left: 50px;
+  }
+  .tab_title span {
+    display: none;
+  }
+
+  .tab_title p {
+    display: block;
+    margin-left: 50px;
+  }
+
+  .like_list {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .like_wrap {
+    padding: 15px;
+  }
+
+  .like_list input[type="checkbox"] {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+
+  .like_list {
+    width: 80%;
+  }
+
+  .like_btn_wrap .btn_submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .like_image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .like_info p {
+    font-size: 12px !important;
+  }
+
+  .title
+ {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .like_info {
+    width: initial;
+  }
+}
