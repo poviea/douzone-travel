@@ -38,7 +38,7 @@ function App() {
 
 
   return (
-    <BrowserRouter basename={'/douzone-travel'}>
+    <BrowserRouter basename={'douzone-travel'}>
       <TopNavigationBar
         data={data}
         setData={setData}
