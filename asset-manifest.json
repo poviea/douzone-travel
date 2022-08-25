@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/douzone-travel/static/css/main.61ad7fd4.css",
+    "main.js": "/douzone-travel/static/js/main.6b7f1a69.js",
+    "index.html": "/douzone-travel/index.html",
+    "main.61ad7fd4.css.map": "/douzone-travel/static/css/main.61ad7fd4.css.map",
+    "main.6b7f1a69.js.map": "/douzone-travel/static/js/main.6b7f1a69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61ad7fd4.css",
+    "static/js/main.6b7f1a69.js"
+  ]
+}
